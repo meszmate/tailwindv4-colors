@@ -1,0 +1,22 @@
+{
+  "name": "tailwindv4-colors",
+  "version": "1.0.1",
+  "description": "Tailwind v4 color palette for React-Native / Web",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["tailwind", "colors", "react-native", "expo", "react", "nativewind", "react"],
+  "author": "Matthew Meszaros (@meszmate)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meszmate/tailwindv4-colors.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
